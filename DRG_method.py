@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+
+"""
+@author: Jéssica Rebelo - UFSC - LABMCI
+jessica.rebelo@labmci.ufsc.br
+Script para execução de simulações de reatores e redução de
+mecanismos cinéticos detalhados com base no método de redução
+DRG - Directed Relation Graph 
+"""
+
+
 import cantera as ct 
 import numpy as np 
 import matplotlib.pyplot as plt
