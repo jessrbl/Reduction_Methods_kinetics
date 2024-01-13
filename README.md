@@ -26,7 +26,7 @@ To quantify the influence between the species, \( r_{AB} \) is defined as follow
   <img src="images/delta_Bi.png" alt="Equation 2">   
 </p>
 
-The dependence of A and B is later evaluated by the definition of a *threshold value* \( \varepsilon \). Then, the following rules are applied:
+The dependence of A and B is later evaluated by the definition of a *threshold value* \(\varepsilon\). Then, the following rules are applied:
 
 <p align="center">
   <img src="images/rules.png" alt="Equation 1">          
