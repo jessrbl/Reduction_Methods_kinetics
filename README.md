@@ -20,6 +20,9 @@ To quantify the influence between the species, \( r_{AB} \) is defined as follow
 
 <p align="center">
   <img src="images/rAB.png" alt="Equation 1">        
+</p>
+
+<p align="center">
   <img src="images/delta_Bi.png" alt="Equation 2">   
 </p>
 
@@ -33,7 +36,7 @@ A pivotal initial step in this approach is the selection of the *starting set* o
 
 The skeletal mechanism materializes through the union of these dependent sets, with the additional refinement with the elimination of all elementary reactions that do not contain any species in the skeletal mechanism (LU, T.; LAW, Chung K., 2005) [1].
 
-</div>
+
 
 ## References
 
