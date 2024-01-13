@@ -2,8 +2,15 @@
 
 The Directed Relation Graph (DRG) is an approach developed by Tianfeng Lu and Chung K. Law (2005) [1], for obtention of a skeletal mechanism. This method involves mapping coupling relations between chemical species into a directed graph, as depicted in Figure 1.
 
-![A directed relation graph showing typical relations of the species.](images/DRG.png)
-*Figure 1: A directed relation graph showing typical relations of the species. Source: Tianfeng Lu and Chung K. Law (2005) [1].*
+<p align="center">
+  <strong style="font-size: 80%;">Figure 1:</strong> <span style="font-size: 80%;">A directed relation graph showing typical relations of the species.</span><br>
+  <img src="images/DRG.png" width="200px" height="200px" alt="A directed relation graph showing typical relations of the species." style="border: 1px solid #000;">
+</p>
+
+<p align="center" style="font-size: 80%;">
+  <strong>Source:</strong> Lu et al., 2005 [1].
+</p>
+
 
 Each node in the DRG represents a species in the detailed kinetic mechanism. If the removal of species B affects the production rate of species A, an edge is drawn from vertex A to vertex B (\( A \rightarrow B \)). An edge from A to B means that B has to be kept in the skeletal mechanism to correctly evaluate the production rate of A.
 
@@ -33,11 +40,7 @@ The skeletal mechanism materializes through the union of these dependent sets, w
 
 ## References
 
-1. LU, Tianfeng; LAW, Chung K. A directed relation graph method for mechanism
-reduction. Proceedings of the Combustion Institute, Elsevier Ltd, v. 30,
-p. 1333–1341, 1 2005. ISSN 15407489.
-2. NIEMEYER, Kyle; SUNG, Chih-Jen. DRGEP-based mechanism reduction strategies:
-graph search algorithms and skeletal primary reference fuel mechanisms. In: 49TH
-AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace
+1. LU, Tianfeng; LAW, Chung K. A directed relation graph method for mechanism reduction. Proceedings of the Combustion Institute, Elsevier Ltd, v. 30, p. 1333–1341, 1 2005. ISSN 15407489.
+2. NIEMEYER, Kyle; SUNG, Chih-Jen. DRGEP-based mechanism reduction strategies: graph search algorithms and skeletal primary reference fuel mechanisms. In: 49TH AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace
 Exposition. [S.l.: s.n.], 2011. P. 508.
 
