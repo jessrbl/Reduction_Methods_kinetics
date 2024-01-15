@@ -1,4 +1,8 @@
 import cantera as ct
+import numpy as np
+
+target_species = 'CH4'
+
 
 def get_reactions_map():
     gas = ct.Solution('gri30.yaml')
@@ -30,5 +34,5 @@ for species, reactions_involved in reaction_species_map.items():
     print(f"Espécie: {species}, Reações Envolvidas: {reactions_involved}")
 
 
-def calculate_direct_interaction_coefficients(reactions, reaction_species_map, target_species):
-        direct_interaction_coefficients = {}
+
+
