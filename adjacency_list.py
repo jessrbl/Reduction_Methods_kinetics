@@ -18,6 +18,17 @@ def obter_reactions_map():
 
     return reactions, reaction_species_map
 
+reactions, reaction_species_map = obter_reactions_map()
+
+# Imprimindo as informações
+print("Reações:")
+for i, reaction in enumerate(reactions):
+    print(f"Reação {i + 1}: {reaction.equation}")
+
+print("\nMapa de Espécies e Reações:")
+for species, reactions_involved in reaction_species_map.items():
+    print(f"Espécie: {species}, Reações Envolvidas: {reactions_involved}")
+
 def criar_drg_adjacency_lists(reactions, reaction_species_map):
     drg_adjacency_lists = {i: set() for i in range(len(reactions))}
     
@@ -46,7 +57,6 @@ def criar_species_reaction_map(reaction_species_map):
 
     return species_reaction_map
 
-# Uso das funções
 reactions, reaction_species_map = obter_reactions_map()
 drg_adjacency_lists = criar_drg_adjacency_lists(reactions, reaction_species_map)
 adjacency_matrix = criar_adjacency_matrix(drg_adjacency_lists)
@@ -55,8 +65,4 @@ species_reaction_map = criar_species_reaction_map(reaction_species_map)
 # Imprimindo a matriz de adjacência
 print("\nMatriz de Adjacência para o Grafo de Reações (DRG):")
 print(adjacency_matrix)
-
-# Agora você pode usar o species_reaction_map conforme necessário, sem imprimi-lo diretamente na tela.
-# Por exemplo:
-# print(species_reaction_map['CH4'])
 
